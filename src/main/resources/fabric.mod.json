@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "better-resource-pack-sorting",
+  "version": "${version}",
+  "name": "Better Resource Pack Sorting",
+  "description": "Upgrades the sorting used for resource packs",
+  "authors": [
+    "MrMelon54"
+  ],
+  "contact": {
+    "website": "https://minecraft.mrmelon54.xyz/mods/better-resource-pack-sorting",
+    "repo": "https://github.com/MrMelon54/better-resource-pack-sorting-fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/better-resource-pack-sorting/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "xyz.mrmelon54.betterresourcepacksorting.client.BetterResourcePackSortingClient"
+    ]
+  },
+  "mixins": [
+    "BetterResourcePackSorting.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": "1.18.x"
+  }
+}
