@@ -13,7 +13,6 @@ import java.util.Optional;
 public class BetterResourcePackSortingClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-
     }
 
     public static String getTextAsSortable(Text a) {

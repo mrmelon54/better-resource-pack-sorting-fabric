@@ -17,6 +17,21 @@ This mod changes the sorting order of the available resource packs list
 - Uppercase and lowercase are sorted next to each other
 - Formatting codes are ignored to reduce confusion
 
+After v1.1.0 this mod also supports adding custom resource pack names:
+
+- Adds a new field `name` into the `pack.mcmeta` which overrides the display name for the resource pack
+- Instead of showing `pack-name.zip` it shows `This is a custom name` using the custom styling as well
+
+```json
+{
+    "pack": {
+        "pack_format": 8,
+        "name": "\u00A72This is a custom name",
+        "description": "\u00A73Custom description\nby MrMelon"
+    }
+}
+```
+
 ## Discord
 
 - https://discord.gg/usbmdrJ
