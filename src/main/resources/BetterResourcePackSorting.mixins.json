@@ -5,10 +5,12 @@
   "compatibilityLevel": "JAVA_16",
   "mixins": [
     "MixinMinecraftClient",
+    "MixinPackListWidget_ResourcePackEntry",
     "MixinPackResourceMetadata",
     "MixinPackResourceMetadataReader",
-    "MixinResourcePackProfile",
-    "MixinResourcePackManager"
+    "MixinResourcePackManager",
+    "MixinResourcePackOrganizer_AbstractPack",
+    "MixinResourcePackProfile"
   ],
   "client": [],
   "injectors": {

@@ -32,6 +32,8 @@ After v1.1.0 this mod also supports adding custom resource pack names:
 }
 ```
 
+After v1.1.1: holding alt when hovering over a resource pack will show the original file name
+
 ## Discord
 
 - https://discord.gg/usbmdrJ
