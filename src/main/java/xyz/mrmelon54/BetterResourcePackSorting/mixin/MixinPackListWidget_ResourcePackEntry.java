@@ -1,4 +1,4 @@
-package xyz.mrmelon54.betterresourcepacksorting.mixin;
+package xyz.mrmelon54.BetterResourcePackSorting.mixin;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.pack.PackListWidget;
@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import xyz.mrmelon54.betterresourcepacksorting.duck.PackResourceCustomNameGetter;
+import xyz.mrmelon54.BetterResourcePackSorting.duck.PackResourceCustomNameGetter;
 
 @Mixin(PackListWidget.ResourcePackEntry.class)
 public abstract class MixinPackListWidget_ResourcePackEntry {

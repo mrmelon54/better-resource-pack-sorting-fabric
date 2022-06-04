@@ -1,4 +1,4 @@
-package xyz.mrmelon54.betterresourcepacksorting.mixin;
+package xyz.mrmelon54.BetterResourcePackSorting.mixin;
 
 import net.minecraft.client.gui.screen.pack.ResourcePackOrganizer;
 import net.minecraft.resource.ResourcePackProfile;
@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import xyz.mrmelon54.betterresourcepacksorting.duck.PackResourceCustomNameGetter;
+import xyz.mrmelon54.BetterResourcePackSorting.duck.PackResourceCustomNameGetter;
 
 @Mixin(targets = "net/minecraft/client/gui/screen/pack/ResourcePackOrganizer$AbstractPack")
 public class MixinResourcePackOrganizer_AbstractPack implements PackResourceCustomNameGetter {

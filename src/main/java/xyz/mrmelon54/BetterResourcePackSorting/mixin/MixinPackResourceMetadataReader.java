@@ -1,4 +1,4 @@
-package xyz.mrmelon54.betterresourcepacksorting.mixin;
+package xyz.mrmelon54.BetterResourcePackSorting.mixin;
 
 import com.google.gson.JsonObject;
 import net.minecraft.resource.metadata.PackResourceMetadata;
@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import xyz.mrmelon54.betterresourcepacksorting.duck.PackResourceCustomNameSetter;
+import xyz.mrmelon54.BetterResourcePackSorting.duck.PackResourceCustomNameSetter;
 
 @Mixin(PackResourceMetadataReader.class)
 public class MixinPackResourceMetadataReader {

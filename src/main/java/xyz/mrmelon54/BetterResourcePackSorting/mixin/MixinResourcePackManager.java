@@ -1,4 +1,4 @@
-package xyz.mrmelon54.betterresourcepacksorting.mixin;
+package xyz.mrmelon54.BetterResourcePackSorting.mixin;
 
 import net.minecraft.resource.ResourcePackManager;
 import net.minecraft.resource.ResourcePackProfile;
@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import xyz.mrmelon54.betterresourcepacksorting.client.BetterResourcePackSortingClient;
+import xyz.mrmelon54.BetterResourcePackSorting.client.BetterResourcePackSortingClient;
 
 import java.util.Collection;
 import java.util.Map;

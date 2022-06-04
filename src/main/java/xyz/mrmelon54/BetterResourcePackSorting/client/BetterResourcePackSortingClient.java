@@ -1,4 +1,4 @@
-package xyz.mrmelon54.betterresourcepacksorting.client;
+package xyz.mrmelon54.BetterResourcePackSorting.client;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;

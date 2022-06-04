@@ -1,4 +1,4 @@
-package xyz.mrmelon54.betterresourcepacksorting.duck;
+package xyz.mrmelon54.BetterResourcePackSorting.duck;
 
 import net.minecraft.text.Text;
 
