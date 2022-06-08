@@ -37,7 +37,7 @@ public abstract class MixinPackListWidget_ResourcePackEntry {
 
     @Inject(method = "render", at = @At("HEAD"))
     private void injectedRender(MatrixStack matrices, int index, int y, int x, int entryWidth, int entryHeight, int mouseX, int mouseY, boolean hovered, float tickDelta, CallbackInfo ci) {
-        this.hovered = this.isSelectable() && (this.client.options.touchscreen || hovered);
+        this.hovered = this.isSelectable() && (this.client.options.getTouchscreen().getValue() || hovered);
     }
 
     @Redirect(method = "render", at = @At(value = "FIELD", target = "Lnet/minecraft/client/gui/screen/pack/PackListWidget$ResourcePackEntry;displayName:Lnet/minecraft/text/OrderedText;"))

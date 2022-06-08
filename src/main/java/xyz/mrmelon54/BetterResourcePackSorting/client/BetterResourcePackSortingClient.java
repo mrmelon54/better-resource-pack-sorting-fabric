@@ -17,7 +17,7 @@ public class BetterResourcePackSortingClient implements ClientModInitializer {
 
     public static String getTextAsSortable(Text a) {
         Optional<String> o = a.getWithStyle(Style.EMPTY).stream().map(text -> {
-            String s = text.asString().toUpperCase(Locale.ROOT);
+            String s = text.asTruncatedString(100).toUpperCase(Locale.ROOT);
             return removeFormattingCodes(s);
         }).reduce((s, s2) -> s + s2);
         return o.orElse("");
