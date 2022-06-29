@@ -4,7 +4,7 @@
 
 Requires the [Fabric Loader](https://fabricmc.net/use/)
 
-Logo made by [CarbonGhost](https://github.com/CarbonGhost)
+Logo made by [@CarbonGhost](https://github.com/CarbonGhost)
 
 ## Setup
 
@@ -41,3 +41,4 @@ After v1.1.1: holding alt when hovering over a resource pack will show the origi
 ## Download
 
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/better-resource-pack-sorting)
+- [Modrinth](https://modrinth.com/mod/better-resource-pack-sorting)
