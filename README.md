@@ -1,5 +1,7 @@
 # Better Resource Pack Sorting
 
+# Moved to [better_resource_pack_sorting](https://github.com/mrmelon54/better_resource_pack_sorting)
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W1607S8)
 
 Requires the [Fabric Loader](https://fabricmc.net/use/)
